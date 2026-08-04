@@ -212,6 +212,13 @@ function Dashboard() {
       >
         Time In
       </button>
+      <button
+        onClick={()=>{
+        navigate("/profile")
+        }}
+        >
+        My Profile
+      </button>
 
       <button
         onClick={handleTimeOut}
