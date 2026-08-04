@@ -107,11 +107,12 @@ function Dashboard() {
   }
 
   const { error } = await supabase.from("attendance").insert({
-    user_id: user.id,
-    date: today,
-    time_in: new Date().toISOString(),
-    status: "Present",
-  });
+  user_id: user.id,
+  date: today,
+  time_in: new Date().toISOString(),
+  status: "Present",
+  work_location: "Office",
+});
 
   if (error) {
     alert(error.message);
