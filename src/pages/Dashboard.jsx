@@ -117,7 +117,7 @@ function Dashboard() {
     alert(error.message);
     return;
   }
-  await fetchTodayAttendance();
+  
   await fetchAttendanceHistory();
 
   alert("✅ Time In successful!");
@@ -274,7 +274,7 @@ function Dashboard() {
   </tbody>
 </table>
 
-      <p>No attendance yet.</p>
+      
 
       <br />
 
