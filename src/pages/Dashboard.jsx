@@ -233,6 +233,11 @@ function Dashboard() {
       <br />
 
       <hr />
+            <button
+          onClick={() => navigate("/leave")}
+      >
+          Leave Request
+      </button>
 
 <h3>Attendance History</h3>
 
@@ -282,7 +287,7 @@ function Dashboard() {
   </tbody>
 </table>
 
-      
+         
 
       <br />
 
